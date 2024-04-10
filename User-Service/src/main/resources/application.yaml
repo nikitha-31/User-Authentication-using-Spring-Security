@@ -1,0 +1,17 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: User SErvice
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/userservice
+    username: root
+    password: Nikitha3112
+    driver-class-name: com.mysql.cj.jdbc.Driver
+ 
